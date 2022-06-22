@@ -2,5 +2,5 @@
 
 ## Learning
       
-- [Forgetting Curve][docs/learning/Forgetting-Curve.md]
-- [Feynman Technique](docs/learning/Feynman-Technique.md]
+- [Forgetting Curve](docs/learning/Forgetting-Curve.md)
+- [Feynman Technique](docs/learning/Feynman-Technique.md)
