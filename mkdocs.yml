@@ -1,47 +1,61 @@
 site_name: The What is it, and how to play with it? series.
-site_author: 'zhoujiagen@gmail.com'
+site_author: "zhoujiagen@gmail.com"
 copyright: MIT
 repo_name: the-what-is-series
 repo_url: https://github.com/zhoujiagen/the-what-is-series
 
 nav:
   - Home: index.md
+  - "Learning":
+      - "Forgetting Curve": learning/Forgetting-Curve.md
+      - "Feynman Technique": learning/Feynman-Technique.md
 
 #theme: readthedocs
 theme:
   name: material
+  features:
+    - content.code.annotate
 extra:
   search:
-    language: 'en'
+    language: "en"
 markdown_extensions:
+  - attr_list
   - admonition
   - codehilite:
       linenums: true
       guess_lang: False
   - toc:
       permalink: true
-  - pymdownx.arithmatex # LaTeX math equations
+  - pymdownx.arithmatex: # LaTeX math equations
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.caret
   - pymdownx.critic
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.magiclink
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
-  - footnotes
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.snippets:
+      base_path: docs
+      check_paths: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - footnotes
   - markdown_inline_graphviz
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

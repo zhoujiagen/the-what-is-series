@@ -10,7 +10,7 @@ The structure of articles in this series is organized as follows:
 
 |时间|内容|
 |:---|:---|
-|yyyymmdd||
+|yyyy-mm-dd||
 
 ## Introduction
 <!-- Describe the motivation of clarify <xxx>. -->
