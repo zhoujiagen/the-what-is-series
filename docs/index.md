@@ -1,6 +1,6 @@
-# What is *What is it, and how to play with it? series*
+# What is `What is it, and how to play with it? series`
 
-The **What is it, and how to play with it? series** 's main purpose does not try to establish a knowledge hierarchy, but try to clarify some concepts and technologies, including but not limited to their formal or informal definitions, taxonomies, distinguished features, applications in the wild world.
+The `What is it, and how to play with it? series` 's main purpose does not try to establish a knowledge hierarchy, but try to clarify some concepts and technologies, including but not limited to their formal or informal definitions, taxonomies, distinguished features, applications in the wild world.
 
 The structure of articles in this series is organized as follows:
 
